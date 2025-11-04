@@ -1,4 +1,4 @@
-# Exercício 1: Crie uma função saudacao(nome) que recebe um nome e retorna uma mensagem de boas-vindas.
+# Exercício 2: Desenvolva uma função calcular_area_retangulo(base, altura) que retorna a área de um retângulo.
 import os
 os.system('clear')
 
