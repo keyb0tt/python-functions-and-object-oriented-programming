@@ -1,0 +1,84 @@
+🟢 EXERCÍCIOS FÁCEIS (1-20): Funções Fundamentais
+Bloco 1: Funções Básicas (1-5)
+Exercício 1: Crie uma função saudacao(nome) que recebe um nome e retorna uma mensagem de boas-vindas.
+Exercício 2: Desenvolva uma função calcular_area_retangulo(base, altura) que retorna a área de um retângulo.
+Exercício 3: Faça uma função eh_par(numero) que retorna True se o número for par e False caso contrário.
+Exercício 4: Crie temperatura_fahrenheit(celsius) que converte temperatura de Celsius para Fahrenheit (F = C × 1.8 + 32).
+Exercício 5: Desenvolva maior_de_dois(a, b) que retorna o maior entre dois números.
+
+Bloco 2: Funções com Múltiplos Parâmetros (6-10)
+Exercício 6: Crie calcular_media(nota1, nota2, nota3) que retorna a média aritmética de três notas.
+Exercício 7: Faça contar_vogais(texto) que conta quantas vogais existem em uma string.
+Exercício 8: Desenvolva inverter_string(texto) que retorna a string invertida.
+Exercício 9: Crie calcular_imc(peso, altura) que calcula o Índice de Massa Corporal (IMC = peso / altura²).
+Exercício 10: Faça eh_palindromo(palavra) que verifica se uma palavra é palíndromo (ex: "arara").
+
+Bloco 3: Funções com Valores Padrão (11-15)
+Exercício 11: Crie potencia(base, expoente=2) onde o expoente padrão é 2.
+Exercício 12: Desenvolva criar_email(nome, dominio="gmail.com") que cria um email no formato nome@dominio.
+Exercício 13: Faça desconto(valor, percentual=10) que aplica um desconto (padrão 10%) ao valor.
+Exercício 14: Crie repetir_texto(texto, vezes=3) que repete um texto N vezes.
+Exercício 15: Desenvolva formatar_moeda(valor, simbolo="R$") que formata um número como moeda.
+
+Bloco 4: Introdução a Classes (16-20)
+Exercício 16: Crie uma classe Cachorro com atributos nome e idade, e um método latir() que imprime "Au au!".
+Exercício 17: Desenvolva uma classe Retangulo com atributos base e altura, e um método calcular_area().
+Exercício 18: Faça uma classe ContaBancaria com atributo saldo e método depositar(valor).
+Exercício 19: Crie uma classe Livro com atributos titulo, autor e paginas, e um método descricao() que retorna uma string descritiva.
+Exercício 20: Desenvolva uma classe Carro com atributos marca, modelo e ano, e um método detalhes().
+
+🟡 EXERCÍCIOS MÉDIOS (21-30): POO e Conceitos Avançados
+Bloco 5: Classes com Métodos Complexos (21-24)
+Exercício 21: Crie uma classe ContaBancaria completa com:
+
+Atributos: titular, saldo, numero_conta
+Métodos: depositar(valor), sacar(valor), extrato()
+O saque só deve ocorrer se houver saldo suficiente
+
+Exercício 22: Desenvolva uma classe Aluno com:
+
+Atributos: nome, matricula, notas (lista)
+Métodos: adicionar_nota(nota), calcular_media(), situacao() (aprovado se média ≥ 7)
+
+Exercício 23: Crie uma classe Produto com:
+
+Atributos: nome, preco, quantidade_estoque
+Métodos: adicionar_estoque(qtd), vender(qtd), valor_total_estoque()
+
+Exercício 24: Faça uma classe Funcionario com:
+
+Atributos: nome, cargo, salario
+Métodos: aumentar_salario(percentual), exibir_informacoes()
+
+
+Bloco 6: Herança (25-27)
+Exercício 25: Crie uma classe base Animal com método fazer_som(), e classes derivadas Gato e Cachorro que sobrescrevem esse método.
+Exercício 26: Desenvolva uma hierarquia:
+
+Classe base: Veiculo (atributos: marca, modelo, ano)
+Classes derivadas: Carro (adiciona: portas) e Moto (adiciona: cilindradas)
+
+Exercício 27: Crie uma classe Pessoa e uma classe Estudante que herda de Pessoa:
+
+Pessoa: atributos nome, idade
+Estudante: adiciona matricula e curso
+
+
+Bloco 7: Encapsulamento e Métodos Especiais (28-30)
+Exercício 28: Crie uma classe Temperatura com:
+
+Atributo privado _celsius
+Métodos: get_celsius(), set_celsius(valor), get_fahrenheit(), set_fahrenheit(valor)
+Conversão automática entre escalas
+
+Exercício 29: Desenvolva uma classe Retangulo com métodos especiais:
+
+__init__(base, altura)
+__str__() para representação legível
+__eq__(outro) para comparar se dois retângulos têm a mesma área
+
+Exercício 30: Crie uma classe ListaDeTarefas com:
+
+Atributo privado _tarefas (lista)
+Métodos: adicionar(tarefa), remover(tarefa), listar_tarefas(), marcar_concluida(tarefa)
+Use um dicionário para armazenar tarefas e seu status (concluída/pendente)

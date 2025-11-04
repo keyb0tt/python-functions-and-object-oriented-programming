@@ -1,0 +1,6 @@
+Bloco 1: Funções Básicas (1-5)
+Exercício 1: Crie uma função saudacao(nome) que recebe um nome e retorna uma mensagem de boas-vindas.
+Exercício 2: Desenvolva uma função calcular_area_retangulo(base, altura) que retorna a área de um retângulo.
+Exercício 3: Faça uma função eh_par(numero) que retorna True se o número for par e False caso contrário.
+Exercício 4: Crie temperatura_fahrenheit(celsius) que converte temperatura de Celsius para Fahrenheit (F = C × 1.8 + 32).
+Exercício 5: Desenvolva maior_de_dois(a, b) que retorna o maior entre dois números.
