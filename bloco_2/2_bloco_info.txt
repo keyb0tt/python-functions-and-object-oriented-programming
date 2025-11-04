@@ -1,0 +1,6 @@
+Bloco 2: Funções com Múltiplos Parâmetros (6-10)
+Exercício 6: Crie calcular_media(nota1, nota2, nota3) que retorna a média aritmética de três notas.
+Exercício 7: Faça contar_vogais(texto) que conta quantas vogais existem em uma string.
+Exercício 8: Desenvolva inverter_string(texto) que retorna a string invertida.
+Exercício 9: Crie calcular_imc(peso, altura) que calcula o Índice de Massa Corporal (IMC = peso / altura²).
+Exercício 10: Faça eh_palindromo(palavra) que verifica se uma palavra é palíndromo (ex: "arara").
