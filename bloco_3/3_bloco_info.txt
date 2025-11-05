@@ -1,0 +1,6 @@
+Bloco 3: Funções com Valores Padrão (11-15)
+Exercício 11: Crie potencia(base, expoente=2) onde o expoente padrão é 2.
+Exercício 12: Desenvolva criar_email(nome, dominio="gmail.com") que cria um email no formato nome@dominio.
+Exercício 13: Faça desconto(valor, percentual=10) que aplica um desconto (padrão 10%) ao valor.
+Exercício 14: Crie repetir_texto(texto, vezes=3) que repete um texto N vezes.
+Exercício 15: Desenvolva formatar_moeda(valor, simbolo="R$") que formata um número como moeda.
