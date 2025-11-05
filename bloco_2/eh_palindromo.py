@@ -3,15 +3,18 @@ import os
 os.system('clear')
 
 def eh_palindromo(palavra):
-    lista_palavra = list(palavra)
-    letras_reversed = []
-    print(lista_palavra)
+    lista_letras_original = list(palavra)
+    lista_letras_reversed = []
 
-    for i in range(len(lista_palavra) - 1, 0, -1):
-        print(lista_palavra[i])
-        letras_reversed.append(lista_palavra[i]) 
+    for i in range(len(lista_letras_original), 0, -1):
+        lista_letras_reversed.append(lista_letras_original[i - 1]) 
 
-    print(letras_reversed)
-    pass
+    palavra = ''.join(lista_letras_original)
+    palavra_reversed = ''.join(lista_letras_reversed)
 
-print(eh_palindromo('cachorro'))
+    if palavra.lower() == palavra_reversed.lower():
+        return True
+    else:
+        return False
+
+print(eh_palindromo('arara'))
