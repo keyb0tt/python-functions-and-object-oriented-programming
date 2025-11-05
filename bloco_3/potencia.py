@@ -10,5 +10,5 @@ def potencia(base, expoente=2):
 
     return result
 
-potencia_var = potencia(15)
-potencia_var = potencia(4, 3)
+potencia_um = potencia(15)
+potencia_dois = potencia(4, 3)
