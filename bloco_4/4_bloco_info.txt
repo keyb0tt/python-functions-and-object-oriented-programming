@@ -1,0 +1,6 @@
+Bloco 4: Introdução a Classes (16-20)
+Exercício 16: Crie uma classe Cachorro com atributos nome e idade, e um método latir() que imprime "Au au!".
+Exercício 17: Desenvolva uma classe Retangulo com atributos base e altura, e um método calcular_area().
+Exercício 18: Faça uma classe ContaBancaria com atributo saldo e método depositar(valor).
+Exercício 19: Crie uma classe Livro com atributos titulo, autor e paginas, e um método descricao() que retorna uma string descritiva.
+Exercício 20: Desenvolva uma classe Carro com atributos marca, modelo e ano, e um método detalhes().
